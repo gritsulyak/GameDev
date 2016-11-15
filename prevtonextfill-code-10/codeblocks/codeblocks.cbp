@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="codeblocks" />
+		<Option platforms="Windows;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\123Filld" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option host_application="codeblocks\bin\Debug\codeblocks.exe" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\123Fill" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option host_application="codeblocks\bin\Release\codeblocks.exe" />
+				<Compiler>
+					<Add option="-march=pentium3" />
+					<Add option="-Os" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="comctl32" />
+				</Linker>
+			</Target>
+			<Target title="ConsolePP">
+				<Option output="bin\ConsolePP\codeblocks" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\ConsolePP\" />
+				<Option object_output="obj\ConsolePP\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-D_UNICODE" />
+			<Add option="-DUNICODE" />
+		</Compiler>
+		<Linker>
+			<Add library="gdi32" />
+			<Add library="user32" />
+			<Add library="kernel32" />
+		</Linker>
+		<Unit filename="..\HeadDown.bmp" />
+		<Unit filename="..\HeadLeft.bmp" />
+		<Unit filename="..\HeadRight.bmp" />
+		<Unit filename="..\HeadUp.bmp" />
+		<Unit filename="..\LeftDown.bmp" />
+		<Unit filename="..\LeftRight.bmp" />
+		<Unit filename="..\Project.txt" />
+		<Unit filename="..\Resource.h" />
+		<Unit filename="..\RightDown.bmp" />
+		<Unit filename="..\Untitled.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Unit filename="..\UpDown.bmp" />
+		<Unit filename="..\UpLeft.bmp" />
+		<Unit filename="..\UpRight.bmp" />
+		<Unit filename="..\fopen.bmp" />
+		<Unit filename="..\game.cpp" />
+		<Unit filename="..\game.h" />
+		<Unit filename="..\game_fields.cpp" />
+		<Unit filename="..\game_fields.h" />
+		<Unit filename="..\gamedrawer.cpp" />
+		<Unit filename="..\gamedrawer.h" />
+		<Unit filename="..\main.cpp" />
+		<Unit filename="..\new.bmp" />
+		<Unit filename="..\save.bmp" />
+		<Unit filename="..\stdafx.cpp" />
+		<Unit filename="..\toolbar.bmp" />
+		<Unit filename="..\util.cpp" />
+		<Unit filename="..\util.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

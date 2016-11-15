@@ -1,0 +1,7 @@
+0.5 version:
+- +10 levels (29 at all)
+
+0.4 version:
+- 19 levels
+- clear icons
+- cheat codes

@@ -1,0 +1,23 @@
+The game is simple clicker, for those who like snake and minesweeper.
+
+ For example, you can reach point (i+1) only moving from piont (i).
+
+You can reach point (2) only if you reached point (1), by moving from point one.
+
+If you like, it you can add more levels in the game_fields.cpp:InitializeGlobalFields() and recompile.
+
+Adding manifest:
+from vc console:
+codeblocks\bin\Release> mt
+-nologo -manifest 123Fill.exe.manifest -outputresource:123Fill.exe
+
+License:
+
+The code author is Roman T. Gritsulyak.
+
+The code licensed under the GNU GPLv3 and later.
+http://www.gnu.org/licenses/gpl.html for license details.
+
+The code is available on http://roman.gritsulyak.googlepages.com/
+
+For commercial usage please contact Roman T.Gritsulyak.
