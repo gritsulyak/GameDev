@@ -1,5 +1,7 @@
 1-2-3 Feel is a simple clicking timekilling game for those, who like minesweeper and various loops games.
 
+![alt text](https://e88f0a33-a-62cb3a1a-s-sites.googlegroups.com/site/romangritsulyak/home/1-2-3-fill-game-with-source/123fillscreenshot.png)
+
 Idea and implementation:
 (C) 1994-2010 Roman T.Gritsulyak
 
