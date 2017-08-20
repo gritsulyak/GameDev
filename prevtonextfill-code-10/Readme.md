@@ -8,5 +8,7 @@ fill all field.
 
 <pre>
 Rules: 
-For number [i] you can move only from [i] to [i+1]. You can move only from reached points. The game licensed under GPL v.3.
+For number [i] you can move only from [i] to [i+1]. 
+You can move only from reached points. 
+The game licensed under GPL v.3.
 </pre>
